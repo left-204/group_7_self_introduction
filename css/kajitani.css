@@ -1,0 +1,11 @@
+@charset "UTF-8";
+html{
+    
+}
+.member_comment{
+    border: 1px solid #000;
+    margin: 0;
+}
+.comment{
+    border-collapse: collapse;
+}
