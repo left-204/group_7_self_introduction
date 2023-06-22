@@ -1,6 +1,29 @@
 @charset "UTF-8";
 
+body{
+    margin:0;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
 h1 {
     text-align: center;
-    background-color: rgb(36, 41, 65);
+    margin: 10px auto;
+}
+.member_list{
+    display: flex;
+    list-style:none;
+    text-align: center;
+    padding: 0;
+}
+.member{
+    flex: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+.member_link{
+    text-decoration: none;
+    
 }

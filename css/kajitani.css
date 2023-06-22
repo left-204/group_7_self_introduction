@@ -39,8 +39,8 @@ header{
 }
 
 .member_comment{
-    border: 1px solid #000;
-    margin: 0;
+    border-bottom: 1px solid #000;
+    padding-top: 10px;
 }
 .comment{
     border-collapse: collapse;
