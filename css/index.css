@@ -12,18 +12,34 @@ h1 {
     text-align: center;
     margin: 10px auto;
 }
-.member_list{
+.member_list {
     display: flex;
     list-style:none;
     text-align: center;
     padding: 0;
 }
-.member{
+.member {
     flex: auto;
     font-weight: bold;
     font-size: 30px;
 }
-.member_link{
+.member_link {
     text-decoration: none;
-    
+}
+.task {
+    margin-left: 8%;
+    font-weight: bold;
+}
+.count_button_space {
+    margin-left: 8%;
+}
+.count_button {
+    border-radius: 10px;
+    transform: translateY(-6px);
+    box-shadow:0 6px 0 0 #acacac;
+}
+
+.count_button:active{
+    box-shadow:0 2px 0 0 #acacac;
+    transform: translateY(-2px);
 }
