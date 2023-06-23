@@ -42,6 +42,9 @@ h1 {
 .count_button_space {
     margin-left: 8%;
 }
+.background_color_change{
+    margin-left: 8%;
+}
 .count_button {
     border-radius: 10px;
     transform: translateY(-6px);
