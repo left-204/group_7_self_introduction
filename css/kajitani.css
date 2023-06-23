@@ -99,5 +99,17 @@ ul{
     padding: 0;
 }
 .member{
+    color: #333;
     padding: 10px;
+    font-weight: bold;
+}
+.member:visited{
+    color: #333;
+}
+.top_text{
+    color: #333;
+    font-weight: bold;
+}
+.top_text:visited{
+    color: #333;
 }
