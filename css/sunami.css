@@ -1,0 +1,61 @@
+@cherset "UTF-8";
+body{
+	margin: 0 0 0 0;
+	background-color: #edffdb;
+}
+.wrapper{
+	margin: 0 auto 0 auto;
+	max-width: 100%;
+}
+.header{
+    text-align: center;
+	background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+img{
+	width: 30%;
+}
+
+.pic{
+	text-align: center;
+}
+h3{
+	color: #335f2d;
+}
+h4{
+	color: #335f2d;
+}
+p{
+	color:#23461f;
+}
+	#F{
+		display: none;
+	}
+	.F{
+		text-align: center;
+		display: inline-block;
+		background: #b9f7cc;
+		padding: 5px 10px;
+		cursor: pointer;
+		transform: translate(-8%);
+		color: #23461f;
+	}
+	#F:checked+label+.G{
+		display: none;
+	}
+
+	.introduction{
+		text-align: center;
+	}
+	.message{
+		text-align: center;
+		
+	}
+	.comment{
+		display:inline-block;
+		border: outset #31ee80;
+	}
+	.link{
+		text-align: center;
+	}
