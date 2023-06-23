@@ -43,3 +43,6 @@ h1 {
     box-shadow:0 2px 0 0 #acacac;
     transform: translateY(-2px);
 }
+.count_reset_button{
+    margin-left: 8%;
+}

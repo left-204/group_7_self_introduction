@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>班員の紹介</title>
+<link rel="stylesheet" href="../css/tomita.css">
+</head>
+<body>
+    <header class="header">
+        <a herf="../index.html" class="ii">TOP</a>
+        <h1>富田の紹介ページ</h1>
+    </header>
+    <main>
+        <input type="checkbox" id="toggleImage">
+        <label for="toggleImage">画像の表示切り替え</label>
+        <img id="myImage" src="imgaes.jpg" class="imgaes" height="50%" width="50%">
+        <div class="status">
+            <p >年齢：20歳</p>
+            <p>趣味：チャリ・ボード・スキー</p>
+            <p>得意科目：機械設計</p>
+            <p>好きな物：レットブル</p>
+            <p>人生の方針：楽しみます！！！</p>
+        </div>
+    </main>
+            <div>
+                <h2 class="aa">班員からのコメント</h2>
+                <span class="comment"> 
+                    <p>梶谷：</p>
+                    <p>角南：</p>
+                    <p>田中：いつもお世話になっております。</p>
+                    <p>緋田：</p>
+                </span>
+            </div>
+        <div>
+            <h2 class="aa">~班員一覧~</h2>
+            <div class="member-list">
+                <a href="../made_by_hida/kajitani.html">梶谷</a>
+                <a href="">角南</a>
+                <a href="../角南が作った紹介/atuki.html">田中</a>
+                <a>富田</a>
+                <a href="../">緋田</a>
+            </div>
+        </div>
+</body>
+</html>
+<script>
+    var checkbox = document.getElementById("toggleImage");
+    var img = document.getElementById("myImage");
+  
+    checkbox.addEventListener("change", function() {
+      if (this.checked) {
+        img.style.display = "block";
+      } else {
+        img.style.display = "none";
+      }
+    });
+  </script>

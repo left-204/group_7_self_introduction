@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+  }
+  .ii{
+    float:left;
+    font-size: 40px;
+  }
+  main {
+    margin: 20px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5cap rgba(0, 0, 0, 0.1);
+  }
+.header{
+    text-align: center;
+}
+.imgaes{
+    float: left;
+    padding-right: 10%;
+}
+.status{
+    /*padding-right: 20px;*/
+    padding-top: 20px;
+    font-size: 130%;
+}
+
+/*.dis{
+    display: flex;
+}
+
+.dis a {
+    padding-left: 10px;
+    padding-left: 30px;
+}*/
+.aa{
+  padding-top: 3%;
+  text-align: center;
+}
+/*班員コメント設定*/
+.comment{
+  text-align: center;
+  font-size: 130%;
+}
+/*班員一覧設定*/
+.member-list{
+  font-size: 120%;
+  letter-spacing: 10px;
+  text-align: center;
+}
