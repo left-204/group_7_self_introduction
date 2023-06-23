@@ -18,7 +18,7 @@
                 <li class="member"><a class ="member_link" href = 梶谷作成/sunami.html>角南</a></li>
                 <li class="member"><a class ="member_link" href ="角南が作った紹介/atuki.html">田中</a></li>
                 <li class="member"><a class ="member_link" href ="田中が作った紹介/tomita.html">富田</a></li>
-                <li class="member"><a class ="member_link">緋田</a></li>
+                <li class="member"><a class ="member_link"href ="富田が作った紹介/ryuuya.html">緋田</a></li>
             </ul>
         <p class ="task">時間表示</p>
         
@@ -41,15 +41,17 @@
 
         <p class ="task">リセットボタン</p>
         <div class="count_reset_button">
-            <button onclick="resetCount()">リセット</button>
+            <button class="reset_button" onclick="resetCount()">リセット</button>
         </div>
 
         <p class ="task">おみくじ</p>
         <div class="omikuji">
-
+            <button class="omikuji_button" onclick="omikuji()">おみくじを引く</button>
+            <p id="result"></p>
         </div>
         <script src="JS/background.js"></script>
     </body>
 </html>
 <script src="JS/count.js"></script>
 <script src="JS/reset.js"></script>
+<script src="JS/omikuji.js"></script>

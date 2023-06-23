@@ -58,3 +58,28 @@ h1 {
 .count_reset_button{
     margin-left: 8%;
 }
+.clock{
+ margin-left: 8%;   
+}
+.reset_button{
+    border-radius: 10px;
+    transform: translateY(-6px);
+    box-shadow:0 6px 0 0 #acacac;   
+}
+.reset_button:active{
+    box-shadow:0 2px 0 0 #acacac;
+    transform: translateY(-2px);
+}
+.omikuji_button{
+    margin-left: 8%;
+    border-radius: 10px;
+    transform: translateY(-6px);
+    box-shadow:0 6px 0 0 #acacac;   
+}
+.omikuji_button:active{
+    box-shadow:0 2px 0 0 #acacac;
+    transform: translateY(-2px);
+}
+#result{
+    margin-left: 8%;
+}
