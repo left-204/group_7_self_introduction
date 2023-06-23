@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>りゅうちゃん</title>
+  <link rel="stylesheet" href="../css/ryuuya.css">
+  
+</head>
+<body>
+    <header>
+        <h1>りゅうちゃん</h1>
+    </header>
+    <main>
+        <div class="image-with-text">
+                <img id="myImage" src="image.jpg" alt="">
+            
+           
+            <p class="text">
+                名前：緋田　竜也<br>
+                年齢：19歳<br>
+                趣味：お菓子作り・楽器<br>
+                得意科目：フロントエンドⅡ<br>
+                好きな食べ物：駄菓子全般<br>
+                就職活動の方針：情報収集
+            </p>
+    
+        </div>
+
+        <input type="checkbox" id="toggleImage">
+        <label for="toggleImage">画像の表示切り替え</label>
+
+        <p>とみたからのコメント：がんばってー！！りゅうちゃんが作ったお菓子食べてみたいな～～</p>
+        <p>たなかからのコメント：お菓子作れるのすご</p>
+        <p>かじたにからのコメント：</p>
+        <p>すなみからのコメント：</p>
+
+        <ul>
+            <li><a href="../index.html">TOP</a></li>
+            <li><a href="../田中が作った紹介/tomita.html">とみた</a></li>
+            <li><a href="../角南が作った紹介/atuki.html">たなか</a></li>
+            <li><a href="../made_by_hida/kajitani.html">かじたに</a></li>
+            <li><a href="https://www.example.com">すなみ</a></li>
+        </ul>
+
+        <footer>
+            <div class="container">
+                <div class="centered-content">
+                    <p>© 2024年時点の話です。現在の状況から内容が異なる場合もございますのでご注意ください</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
+
+<script>
+    var checkbox = document.getElementById("toggleImage");
+    var img = document.getElementById("myImage");
+  
+    checkbox.addEventListener("change", function() {
+      if (this.checked) {
+        img.style.display = "block";
+      } else {
+        img.style.display = "none";
+      }
+    });
+  </script>
