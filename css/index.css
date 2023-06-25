@@ -12,8 +12,17 @@ h1 {
     text-align: center;
     margin: 10px auto;
 }
+.mkj_text{
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
 .member_list {
-    width: 500px;
     margin: 0 auto;
     display: flex;
     list-style:none;
@@ -24,13 +33,30 @@ h1 {
     flex: auto;
     font-weight: bold;
     font-size: 30px;
+    background-color: #333;
+    padding-bottom: 5px;
+    border-right: dotted 5px #fff;
+    border-top: dotted 5px #fff;
+    border-collapse: collapse;
+}
+.member_right{
+    flex: auto;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #333;
+    padding-bottom: 5px;
+    border-top: dotted 5px #fff;
+    border-collapse: collapse;
+}
+.member:hover{
+    background-color: #ffb923;
+}
+.member_right:hover{
+    background-color: #ffb923;
 }
 .member_link {
-    text-decoration: none;
-    background-color: #333;
+        text-decoration: none;
     color: #fff;
-    border-radius: 10px;
-    padding: 5px;
 }
 .member_link:visited{
     color:#ffffff;
@@ -40,6 +66,9 @@ h1 {
     font-weight: bold;
 }
 .count_button_space {
+    margin-left: 8%;
+}
+.background_color_change{
     margin-left: 8%;
 }
 .count_button {
